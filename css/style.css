@@ -98,6 +98,7 @@ h1{
 /* main */
 .left{
     width: 60%;
+    min-width: 600px;
 }
 
 .right{
