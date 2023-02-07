@@ -15,8 +15,28 @@
 <body>
     <div class="bg-login d-flex-center">
         <div class="login-container d-flex f-between">            
-            <div class="form-login">
-                form login
+            <div class="form-container form-flex">
+                <h5 class="text-center">Welcome back!</h5>
+                <p class="text-center">We're so excited to see you again!</p>
+                <form class="form-flex" action="">
+                    <!-- email -->
+                    <label class="small-text" for="email-number">email or phone number</label>
+                    <input type="text" id="email-number" name="email-number" required>
+                    <!-- password -->
+                    <label class="small-text" for="password">password</label>
+                    <input type="password" id="password" name="password" required>
+                    <!-- recover info -->
+                    <span class="small-text p-bottom-20">
+                        <a class="link-login" href="">Forgot your password?</a>
+                    </span>
+                    <!-- submit -->
+                    <input type="submit" value="Log in">
+                    <!-- register -->
+                    <span class="small-text text-grey no-decoration-hover">
+                        Need an account? 
+                        <a class="link-login" href="">Register</a>
+                    </span>                         
+                </form>
             </div>
             <div class="qr-code text-center">
                 <img src="../img/qr-code.png" alt="qr-code">

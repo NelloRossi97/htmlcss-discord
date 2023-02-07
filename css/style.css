@@ -13,10 +13,12 @@
     --head-btn: #23272A;
     --bg-grey: #F5F5F5;
     --white-text: #FFFFFF;
-    --text-grey: #8E9196;
-    --text-red: #924051;
+    --text-grey: #a7a9ac;
+    --text-red: #d84044;
     --text-link-login: #208DB7;
     --bg-login-container: #36393f;
+    --bg-input: #202225;
+    --bg-submit: #5865f2;
 }
 
 .debug{
@@ -218,6 +220,21 @@ footer select:hover{
     text-align: center;
 }
 
+.small-text{
+    font-size: 0.8rem;
+}
+
+.text-grey{
+    color: var(--text-grey);
+}
+
+.p-bottom-20{
+    padding-bottom: 20px;
+}
+
+.no-decoration-hover:hover{
+    text-decoration: none;
+}
 .even{
     background-color: var(--bg-grey);
 }
@@ -332,8 +349,37 @@ h5{
 }
 
 /* form-login part */
-.form-login{
+.form-container{
     width: 60%;
+}
+
+.form-flex{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+input{
+    background-color: var(--bg-input);
+    border: none;
+    border-radius: 3px;
+    height: 2.5rem;
+    color: var(--white-text);
+}
+
+input[type=submit]{
+    background-color: var(--bg-submit);
+    font-weight: bold;
+    font-size: 1rem;
+}
+.link-login{
+    color: var(--text-link-login)
+}
+
+label{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--text-grey);
+    padding: 20px 0 5px 0;
 }
 
 /* qr-code part */
