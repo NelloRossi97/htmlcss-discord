@@ -136,6 +136,10 @@ label img{
 footer ul{
     flex-flow: column wrap;
 }
+
+.foot-top{
+    padding: 50px 0;
+}
 /* utilities */
 
 .text-center{
