@@ -13,6 +13,9 @@
     --head-btn: #23272A;
     --bg-grey: #F5F5F5;
     --white-text: #FFFFFF;
+    --text-grey: #8E9196;
+    --text-red: #924051;
+    --text-link-login: #208DB7;
 }
 
 .debug{
@@ -292,3 +295,5 @@ ul{
 h4{
     font-size: 2rem;
 }
+
+/* login style */
