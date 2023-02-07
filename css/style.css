@@ -155,6 +155,10 @@ footer select{
     color: var(--white-text);
 }
 
+footer select:hover{
+    cursor: pointer;
+}
+
 .hr-footer{
     border: 1px solid var(--blue-text);
     width: 60%;
@@ -162,6 +166,17 @@ footer select{
 
 .icons-foot{
     color: var(--white-text);
+    padding: 10px 0;
+    font-size: 2rem;
+}
+
+.icons-foot i{
+    padding-right: 20px;
+}
+
+.icons-foot i:hover{
+    color: var(--blue-text);
+    cursor: pointer;
 }
 
 /* utilities */
