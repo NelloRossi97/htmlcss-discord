@@ -313,6 +313,16 @@ h4{
     width: 800px;
     height: 400px;
     border-radius: 5px;
+    padding: 40px;
+}
+
+h5{
+    color: var(--white-text);
+    font-size: 1.5rem;
+}
+
+.login-container p{
+    color: var(--text-grey);
 }
 
 .d-flex-center{
@@ -320,3 +330,32 @@ h4{
     justify-content: center;
     align-items: center;
 }
+
+/* form-login part */
+.form-login{
+    width: 60%;
+}
+
+/* qr-code part */
+.qr-code{
+    width: 35%;
+    flex-flow: column wrap;
+}
+
+.qr-code h5{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.qr-code img{
+    width: 180px;
+    height: 180px;
+    border-radius: 5px;
+}
+
+.qr-code span{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
