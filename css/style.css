@@ -44,7 +44,7 @@ header li{
     padding: 20px;
 }
 
-.navbar a{
+a{
     color: var(--white-text);
     text-decoration: none;
 }
@@ -137,11 +137,18 @@ footer ul{
     flex-flow: column wrap;
 }
 
+footer li{
+    padding: 10px;
+}
+
+
+
 .foot-top{
     padding: 50px 0;
 }
-/* utilities */
 
+
+/* utilities */
 .text-center{
     text-align: center;
 }
@@ -194,4 +201,12 @@ ul{
 
 .reverse{
     flex-flow: row-reverse wrap;
+}
+
+.blue-text{
+    color: var(--blue-text);
+}
+
+h4{
+    font-size: 2rem;
 }
