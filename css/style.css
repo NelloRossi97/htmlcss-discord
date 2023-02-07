@@ -49,6 +49,11 @@ a{
     text-decoration: none;
 }
 
+a:hover, span:hover{
+    text-decoration: underline;
+}
+
+
 .navbar .btn-style{
     padding: 7px 16px;
 }
