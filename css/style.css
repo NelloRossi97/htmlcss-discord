@@ -141,12 +141,28 @@ footer li{
     padding: 10px;
 }
 
-
+.foot-container{
+    max-width: 20%;
+}
 
 .foot-top{
     padding: 50px 0;
 }
 
+footer select{
+    background-color: transparent;
+    border: 0px;
+    color: var(--white-text);
+}
+
+.hr-footer{
+    border: 1px solid var(--blue-text);
+    width: 60%;
+}
+
+.icons-foot{
+    color: var(--white-text);
+}
 
 /* utilities */
 .text-center{
