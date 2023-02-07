@@ -129,6 +129,13 @@ footer{
     background-color: var(--bg-footer);
 }
 
+label img{
+    width: 1.5rem;
+}
+
+footer ul{
+    flex-flow: column wrap;
+}
 /* utilities */
 
 .text-center{
