@@ -364,13 +364,21 @@ input{
     border-radius: 3px;
     height: 2.5rem;
     color: var(--white-text);
+    caret-color: var(--text-grey);
 }
+
 
 input[type=submit]{
     background-color: var(--bg-submit);
     font-weight: bold;
     font-size: 1rem;
 }
+
+input[type=submit]:hover{
+    background-color: #4553EA;
+    cursor: pointer;
+}
+
 .link-login{
     color: var(--text-link-login)
 }
