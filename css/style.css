@@ -218,6 +218,10 @@ ul{
     color: var(--black-text);
 }
 
+.btn-white a:hover{
+    color: var(--blue-text);
+}
+
 .btn-style{
     border-radius: 30px;
     padding: 16px 32px;
@@ -230,8 +234,19 @@ ul{
     background-color: var(--white-text);
 }
 
+.btn-white:hover{
+    text-decoration: none;
+}
+
+
 .btn-blue{
     background-color: var(--blue-text);
+}
+
+.btn-blue:hover{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: rgba(114, 137, 218, 0.8);
 }
 
 .btn-drkgrey{
@@ -240,6 +255,12 @@ ul{
 
 .btn-drkgrey a{
     color: var(--white-text);
+}
+
+.btn-drkgrey:hover{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: rgba(35, 39, 42, 0.8);
 }
 
 .reverse{
