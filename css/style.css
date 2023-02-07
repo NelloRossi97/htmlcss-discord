@@ -161,7 +161,7 @@ footer select:hover{
 
 .hr-footer{
     border: 1px solid var(--blue-text);
-    width: 60%;
+    width: 70%;
 }
 
 .icons-foot{
@@ -177,6 +177,13 @@ footer select:hover{
 .icons-foot i:hover{
     color: var(--blue-text);
     cursor: pointer;
+}
+
+.foot-bottom{
+    padding: 20px 0 50px 0;
+}
+.foot-bottom span{
+    padding: 7px 16px;
 }
 
 /* utilities */
